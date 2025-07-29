@@ -1,25 +1,10 @@
-/*
-
-
-
-
-		EXP 8 - SQL
-		EXP 9 AND 10: NO SQL AND CLOUD
-
-		MARKING SCHEME
-			EACH EXP: 30 MARKS
-					15: CONDUCT + GITHUB PUSH
-					10: VIVA
-					5: LEETCODE
-*/
-
 
 /*
 Easy-Level Problem
 
 Problem Title: Author-Book Relationship Using Joins and Basic SQL Operations
 Procedure (Step-by-Step):
-Design two tables — one for storing author details and the other for book details.
+Design two tables â€” one for storing author details and the other for book details.
 
 Ensure a foreign key relationship from the book to its respective author.
 
@@ -27,12 +12,12 @@ Insert at least three records in each table.
 
 Perform an INNER JOIN to link each book with its author using the common author ID.
 
-Select the book title, author name, and author’s country.
+Select the book title, author name, and authorâ€™s country.
 
 Sample Output Description:
 
 When the join is performed, we get a list where each book title is shown along 
-with its author’s name and their country.
+with its authorâ€™s name and their country.
 
 */
 
@@ -187,7 +172,7 @@ select DEPTNAME FROM Department WHERE DeptID IN
 
 
 
-/*
+
 --IN ORDER TO CREATE USER
 -- 1. TO CREATE THE LOGIN - ADMIN
 -- 2. TO CREATE THE USER
@@ -205,5 +190,3 @@ FOR LOGIN TEST_LOGIN
 EXECUTE AS USER = 'TEST_USER'
 
 GRANT SELECT, UPDATE ON COURSE TO TEST_USER
-
-*/
